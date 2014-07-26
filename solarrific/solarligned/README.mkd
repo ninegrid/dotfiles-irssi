@@ -1,0 +1,58 @@
+Solarligned Color Theme for irssi
+===============================
+
+Initially created by [lkraav](https://github.com/lkraav) based on
+[Solarized Color Theme for irssi](https://github.com/huyz/irssi-colors-solarized),
+this is a theme for the [irssi] IRC chat client that support Ethan
+Schoonover’s [Solarized] color scheme.
+
+![Solarligned Light Screenshot](../../raw/master/img/solarligned-light.png)
+
+[irssi]:                http://www.irssi.org/
+[Solarized]:            http://ethanschoonover.com/solarized
+
+Solarligned theme
+---------------
+
+Main attraction of this theme is consistent alignment of conversation metadata, such as nicknames, datetimes, etc.
+
+There is no dark version for this theme. It is proposed to set up your work environment with light background for daytime and switch to inverse mode at night time or when needed. This has the advantage of applying to all applications, not just your IRC client. In a dark room, switching from a dark backgrounded IRC client into light backgrounded web browser is still quite hurtful to the eyes. It is also nearly impossible to find consistent looking light and dark themes to all applications one might use, therefore an operating system level solution should be heavily preferered.
+
+ * OS X: press Ctrl+Option+Cmd+8
+ * Linux: install [xcalib](http://xcalib.sourceforge.net), run `xcalib -invert`
+
+### Screenshots ###
+
+This is how the "solarligned" theme for irssi looks under different palettes.
+Click images to see screenshots.
+
+Solarligned Light (this example uses urxvt on Linux):
+
+[![Solarligned Light](../../raw/master/img/solarligned-light.png)](../../raw/master/img/solarligned-light.png)
+
+Solarized Invert (this example uses urxvt on Linux):
+
+[![Solarligned Dark](../../raw/master/img/solarligned-invert.png)](../../raw/master/img/solarligned-invert.png)
+
+Downloads
+---------
+
+If you have come across these themes via the [irssi-only repository] on github,
+you may want to check the main [Solarized repository] to see if there is an
+official theme.
+
+In the future, the [irssi-only repository] may be kept in sync with the main
+[Solarized repository], but the [irssi-only repository] may be left separate
+for installation convenience and to include the latest improvements.
+
+At this time, issues, bug reports, changelogs are to be reported at the
+[irssi-only repository].
+
+[Solarized repository]:  https://github.com/altercation/solarized
+[irssi-only repository]: https://github.com/huyz/irssi-colors-solarized
+
+
+Installation
+------------
+
+Follow instructions from main [README](../..)
