@@ -17,23 +17,14 @@ chatnets = {
 
 channels = (
   { name = "##fsharp"; chatnet = "FreeNode"; autojoin = "Yes"; },
+  { name = "#jsoftware"; chatnet = "FreeNode"; autojoin = "Yes"; },
   { name = "#haskell"; chatnet = "FreeNode"; autojoin = "Yes"; },
-  { name = "#ruby"; chatnet = "FreeNode"; autojoin = "Yes"; },
-  { name = "#rubyonrails"; chatnet = "FreeNode"; autojoin = "Yes"; },
   { name = "##javascript"; chatnet = "FreeNode"; autojoin = "Yes"; },
   { name = "#coffeescript"; chatnet = "FreeNode"; autojoin = "Yes"; },
-  { name = "#livescript"; chatnet = "FreeNode"; autojoin = "Yes"; },
   { name = "#node.js"; chatnet = "FreeNode"; autojoin = "Yes"; },
   { name = "#emberjs"; chatnet = "FreeNode"; autojoin = "Yes"; }
-  { name = "#fbp"; chatnet = "FreeNode"; autojoin = "Yes"; },
-  { name = "#heroku"; chatnet = "FreeNode"; autojoin = "Yes"; },
   { name = "#vim"; chatnet = "FreeNode"; autojoin = "Yes"; },
   { name = "#regex"; chatnet = "FreeNode"; autojoin = "Yes"; },
-  { name = "#ml-class"; chatnet = "FreeNode"; autojoin = "Yes"; },
-  { name = "#ml"; chatnet = "FreeNode"; autojoin = "Yes"; },
-  { name = "#ai-class"; chatnet = "FreeNode"; autojoin = "Yes"; },
-  { name = "#ai"; chatnet = "FreeNode"; autojoin = "Yes"; },
-  { name = "#pgm-class"; chatnet = "FreeNode"; autojoin = "Yes"; },
   { name = "##math"; chatnet = "FreeNode"; autojoin = "Yes"; }
 );
 
@@ -42,24 +33,15 @@ ignores = (
     level = "JOINS PARTS QUITS";
     channels = (
       "##fsharp",
+      "#jsoftware",
       "#haskell",
-      "#ruby",
-      "#rubyonrails",
       "##javascript",
       "#coffeescript",
-      "#livescript",
       "#node.js",
       "#emberjs",
-      "#fbp",
-      "#heroku",
       "#vim",
       "#regex",
-      "#ml-class",
-      "#ml",
-      "#ai-class",
-      "#ai",
-      "#pgm-class",
-      "#math"
+      "##math"
     );
     network = "FreeNode";
   }
