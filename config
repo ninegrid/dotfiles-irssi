@@ -21,9 +21,8 @@ channels = (
   { name = "#apl"; chatnet = "FreeNode"; autojoin = "Yes"; },
   { name = "#haskell"; chatnet = "FreeNode"; autojoin = "Yes"; },
   { name = "##javascript"; chatnet = "FreeNode"; autojoin = "Yes"; },
-  { name = "#coffeescript"; chatnet = "FreeNode"; autojoin = "Yes"; },
   { name = "#node.js"; chatnet = "FreeNode"; autojoin = "Yes"; },
-  { name = "#emberjs"; chatnet = "FreeNode"; autojoin = "Yes"; }
+  { name = "#livescript"; chatnet = "FreeNode"; autojoin = "Yes";},
   { name = "#vim"; chatnet = "FreeNode"; autojoin = "Yes"; },
   { name = "#regex"; chatnet = "FreeNode"; autojoin = "Yes"; },
   { name = "##math"; chatnet = "FreeNode"; autojoin = "Yes"; }
@@ -38,9 +37,8 @@ ignores = (
       "#apl",
       "#haskell",
       "##javascript",
-      "#coffeescript",
       "#node.js",
-      "#emberjs",
+      "#livescript",
       "#vim",
       "#regex",
       "##math"
